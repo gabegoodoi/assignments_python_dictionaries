@@ -19,9 +19,6 @@ service_tickets = {
 }
 '''
 
-import datetime
-ticket_timecode = "".join("".join("".join("".join(str(datetime.datetime.now()).split()).split("-")).split(":")).split("."))
-
 
 service_tickets = {
     "Ticket1" : {"Customer": "Alice", "Issue": "Login problem", "Status": "open"},
